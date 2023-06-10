@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Drag & Drop in JavaScript</title>
+    <link rel="stylesheet" href="/font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/CSS/draganddrop.css" />
+    <script defer src="/JS/drag&.js"></script>
+  </head>
+  <body>
+    <section class="container">
+    <div class = "box">
+      <div class="box1">
+        <span>Image</span>
+        <div class="image" id = "item" draggable="true">
+            <img src="/pictures/adidas.png">
+        </div>
+        <div class="image" id = "item" draggable="true">
+            <img src="/pictures/nestle.png">
+        </div>
+        <div class="image" id = "item" draggable="true">
+            <img src="/pictures/dominos.jpg">
+        </div>
+        <div class="image" id = "item" draggable="true">
+            <img src="/pictures/starbucks.png">
+        </div>
+        <span>Text</span>
+        <div class = "text" id = "item" draggable="true">
+             <h4>Hello World!!</h4>
+        </div>
+        <div class = "text" id = "item" draggable="true">
+            <h4>Search what you want</h4>
+        </div>
+        <div class = "text" id = "item" draggable="true">
+            <h4>Exploree!!</h4>
+        </div>
+        <div class = "text" id = "item" draggable="true">
+            <h4>Images</h4>
+        </div>
+        <span>Icons</span>
+        <div class = "icon" id = "item" draggable="true">
+           <i class="fa fa-search"></i>
+        </div>
+        <div class = "icon" id = "item" draggable="true">
+            <i class="fa fa-bars"></i>
+        </div>
+        <div class = "icon" id = "item" draggable="true">
+            <i class="fa fa-address-book"></i>
+        </div>
+        <div class = "icon" id = "item" draggable="true">
+            <i class="fa fa-image"></i>
+        </div>
+      </div>
+      <div class="box2"></div>
+    </div>
+    <button id="resetButton">Reset</button>
+    </section>
+  </body>
+</html>
